@@ -1,0 +1,157 @@
+body
+{
+	background: #dcd5bc;
+	margin:0;
+	padding:0;
+	font-family:Calibri;
+	font-size:15px;
+}
+h1
+{
+	color:white;
+	font-size:23px;
+	text-align:center;
+	margin-top:50px;
+	letter-spacing:5px;
+}
+h2
+{	
+	color:#0FA1F2;
+	margin-left:20px;
+}	
+#wrapper
+{
+	width:900px;
+	margin:0 auto;
+}
+#header
+{
+	width:900px;
+	height:120px;
+	background:#0FA1F2;
+	float:left;
+}
+#menu
+{
+	width:900px;
+	height:39px;
+	background:#878787;
+	float:left;
+}
+#menu ul
+{
+	margin:0;
+	padding:0;
+}
+#menu ul li
+{
+	list-style-type:none;
+	float:left;
+}
+#menu ul li a
+{
+	color:#333;
+	text-decoration:none;
+	float:left;
+	padding:10px 0px 10px 0px;
+	text-align:center;
+	background:#e1e1e1;
+	display:block;
+	margin-left:1px;
+	width:149px;
+}
+#menu ul li a:hover,#menu ul li a.active
+{
+	background:#333;
+	color:white;
+}
+#content
+{
+	width:900px;
+	min-height:400px;
+	background:#ffffff;
+	float:left;
+}
+#footer
+{
+	width:900px;
+	height:50px;
+	background:url(images/footer.png);
+	float:left;
+}
+/* table */
+table
+{
+	
+	border:thin solid #333333;
+	font-size:15px;
+	margin-bottom:40px;
+	
+	
+} 
+table img
+{
+	width:80px;
+	height:80px;
+	border:thin solid #333;
+}
+table tr th
+{
+	background:#0FA1F2;
+	color:white;
+}
+table tr 
+{
+	background:#e1e1e1;
+}
+table tr:hover
+{
+	
+	color:#FF002A;
+}
+table tr td
+{
+	padding:18px;
+}
+input[type="text"],input[type="password"]
+{
+	width:200px;
+	height:35px;
+}
+input[type="submit"],input[type="button"]
+{
+	background:#4CB848;
+	display:block;
+	padding:10px;
+	color:white;
+	text-decoration:none;
+	margin-right:20px;
+	width:150px;
+	border:none;
+}
+a.add,a.view,a.edit,a.delete
+{
+	float:right;
+	background:#4CB848;
+	display:block;
+	padding:10px;
+	color:white;
+	text-decoration:none;
+	margin-right:20px;
+}
+a.view
+{
+	background:#0B2444;
+	padding:5px;
+}
+a.edit
+{
+	background:#FFAA00;
+	padding:5px 17px;
+	
+}
+a.delete
+{
+	background:#FF002A;
+	padding:5px 7px;
+}
